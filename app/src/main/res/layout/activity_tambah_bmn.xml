@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/field_kodeBmn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="@string/field_kodeBmn"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_kodeBmn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/field_kodeBmn"
+            android:padding="5dp"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/field_kodeBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/field_kodeBmn"
+            android:padding="5dp"
+            android:text="@string/field_kodeBarang"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_kodeBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/field_kodeBarang"
+            android:layout_alignParentStart="true"
+            android:layout_toEndOf="@id/field_kodeBarang"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/field_NUP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_kodeBarang"
+            android:padding="5dp"
+            android:text="@string/field_NUP"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/input_NUP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_below="@id/field_NUP"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/field_NUP"
+            android:padding="5dp"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:importantForAutofill="no"
+            />
+
+        <TextView
+            android:id="@+id/field_namaBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_NUP"
+            android:layout_alignParentStart="true"
+            android:padding="5dp"
+            android:text="@string/field_namaBarang"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_namaBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_below="@id/field_namaBarang"
+            android:layout_alignParentStart="true"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:importantForAutofill="no"/>
+
+        <TextView
+            android:id="@+id/field_merkTipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_namaBarang"
+            android:layout_alignParentStart="true"
+            android:padding="5dp"
+            android:text="@string/field_merkTipe"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/input_merkTipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_below="@id/field_merkTipe"
+            android:layout_alignParentStart="true"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:importantForAutofill="no"/>
+
+        <TextView
+            android:id="@+id/field_tahunPerolehan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_merkTipe"
+            android:layout_alignParentStart="true"
+            android:padding="5dp"
+            android:text="@string/field_tahunPerolehan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/input_tahunPerolehan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/field_tahunPerolehan"
+            android:layout_alignParentStart="true"
+            android:inputType="text"
+            android:layout_toEndOf="@id/field_tahunPerolehan"
+            android:padding="5dp"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:importantForAutofill="no"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/field_pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/field_pengguna"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/input_pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:id="@+id/field_lokasiRuang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/field_lokasiRuang"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/input_lokasiRuang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/field_kondisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/field_kondisi"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_kondisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/field_keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/field_keterangan"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btn_cancel_tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="@string/button_cancel_edit" />
+
+        <Button
+            android:id="@+id/btn_submit_tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="1"
+            android:text="@string/button_submit_edit" />
+    </TableRow>
+</LinearLayout>
+</ScrollView>

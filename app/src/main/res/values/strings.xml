@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">JRS Bmn</string>
+    <string name="welcome">Welcome</string>
+    <string name="text_tap_again">sentuh kotak untuk rescan</string>
+    <string name="text_scan_result">Hasil Scan : </string>
+    <string name="Btn_Match">Proses</string>
+    <string name="text_getData">Seems Legit</string>
+    <string name="text_welcome">Hello, %1$s</string>
+    <string name="text_btn_proceed">Seems Legit</string>
+
+    <string name="field_kodeBarang">Kode Barang</string>
+    <string name="field_NUP">NUP</string>
+    <string name="field_namaBarang">Nama Barang</string>
+    <string name="field_merkTipe">Merk/Tipe</string>
+    <string name="field_tahunPerolehan">Tahun Perolehan</string>
+    <string name="field_pengguna">User</string>
+    <string name="field_lokasiRuang">Lokasi/Ruang</string>
+    <string name="field_keterangan">Keterangan</string>
+    <string name="field_kondisi">Kondisi</string>
+    <string name="dialog_search">Silahkan Ketik Kode Barang</string>
+    <string name="search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="field_kodeBmn">Kode BMN</string>
+    <string name="button_edit">EDIT</string>
+    <string name="button_not_edit">OK</string>
+    <string name="button_cancel_edit">Cancel</string>
+    <string name="button_submit_edit">Submit</string>
+
+
+    <string name="title_activity_add_new_bmn">AddNewBMN</string>
+    <string name="input_kode_barang">input kode barang</string>
+
+
+
+
+    <string name="edit_nama_pengguna">Edit Nama Pengguna</string>
+    <string name="edit_lokasi_ruang_barang">Edit Lokasi Ruang Barang</string>
+    <string name="edit_kondisi_barang">Edit Kondisi Barang</string>
+    <string name="edit_keterangan_lain">Edit Keterangan Lain</string>
+
+
+</resources>
